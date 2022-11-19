@@ -1,0 +1,141 @@
+
+
+.container-xxl{
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 10vh 80vh 10vh;
+    background:white;
+    margin:0px;
+    padding:0px
+}
+
+.container .header {
+    width:100%
+}  
+
+.header .headerImage{
+    float:left;
+    width:50%
+}
+
+.headerImage .image{
+    width:50%;
+    opacity:0.8
+}
+
+.headerIcon{
+    float:rigth;
+    width:50%;
+    margin-left:70%;
+    display:flex;
+    flex-direction:row
+}
+
+.headerIcon .form-group{
+    width:33.33%
+}
+
+ .postcontainer{
+    width:30%;
+    margin:auto;
+    margin-top:20px;
+    background-color:white;
+    margin-bottom:20px;
+    border:1px solid;
+    border-color:#dadada;
+    border-radius:5px
+}
+
+.postcontainer .card-header{
+    width: 100%;
+    display:grid;
+    grid-template-columns: 15% 45% 40%; 
+    height:7vh;
+    margin-top:10px;
+}
+
+.postcontainer .card-header > :first-child{
+    float:left;
+    margin-left:5px
+}
+
+.postcontainer .card-header > :nth-child(2){
+    margin-top: 2px;
+    height:50px;
+    float:left;
+    display: flex;
+    flex-direction: column;
+}
+
+.postcontainer .card-header > :nth-child(2) > :first-child{
+    margin-top:2px;
+    font-size:14px;
+    font-weight:400;
+    margin: 0px;
+}
+
+.postcontainer .card-header > :nth-child(2) > :last-child{
+    font-size:12px;
+    font-weight:400;
+    margin-top: 0px;
+    margin:0px
+}
+
+.postcontainer .card-header > :last-child {
+    margin-left: 44%;
+    margin-top: 5px;
+
+}
+
+.postcontainer .card-body{
+    width:100%;
+    height:30%
+}
+
+.postcontainer .card-body img{
+    width:100%;
+    background:cover;
+    height:50vh
+}
+
+.postcontainer .card-footer{
+    width: 100%;
+    display:grid;
+    grid-template-columns: 10% 10% 10% 70%;
+    height:7vh;
+    flex-direction:row
+}
+
+.postcontainer .card-footer > :first-child{
+    margin:10px
+}
+
+.postcontainer .card-footer > :nth-child(2){
+    margin:10px
+}
+
+.postcontainer .card-footer > :nth-child(3){
+    margin:10px
+}
+
+.postcontainer .card-footer > :last-child{
+    float: right;
+    margin:10px;
+    margin-left: auto;
+}
+
+.postcontainer .postdiscription {
+    width:100%;
+    height:20%;
+    margin-top:0px;
+    margin-bottom:10px;
+    margin-left:10px;
+    font-size: 16px;
+}
+
+.postcontainer .postdiscription > :first-child{
+    margin-right:5px;
+    font-size:20px;
+    font-size: 16px;
+    font-weight: bold;
+}

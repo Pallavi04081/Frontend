@@ -1,0 +1,79 @@
+
+.outerContiner{
+    max-height: 100%;
+    width: 100%;
+    display:grid;
+    grid-template-columns:30% 70%
+}
+
+.displaychatuser{
+    border: 1px solid;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-color: lightGray
+}
+
+.displaychatuser > :first-child{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column 
+}
+
+.displaychatuser > :first-child > :first-child {
+    margin-right: auto;
+    margin-bottom: 20px 
+}
+
+.displaychatuser > :first-child > :last-child {
+    width: 100%;
+    height: 50%
+}
+
+.chatedPersonListcontainer{
+    height:80%;
+    width:100%;
+    margin-top:20px
+}
+ .personsList{
+    display:flex;
+    flex-direction:row;
+    height:15%;
+    width:100%;
+    margin-left:5px
+}
+
+.personsList > :last-child{
+    margin-left:10px;
+    margin-top:5px
+}
+
+.chatPageContainer{
+    height:100%;
+    width: 100%;
+    border: 1px solid;
+     border-color: lightGray;
+     display: grid;
+      grid-template-rows: 10% 75% 15%
+}
+
+.chatPageContainer > :first-child {
+    display: flex;
+    flex-direction: row;
+}
+
+.messagecontainer{
+    width:100%;
+    height:100%
+}
+
+.messageLists{
+    width:50%;
+    height:30%
+}
+
+.messageLists p {
+    width: 50%;
+ 
+}
